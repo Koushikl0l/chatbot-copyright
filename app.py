@@ -13,7 +13,8 @@ from keras.layers import Dense, Activation, Dropout
 from keras.optimizers import SGD
 import random
 
-
+nltk.download('punkt')
+nltk.download('wordnet')
 
 app = Flask(__name__)
 
