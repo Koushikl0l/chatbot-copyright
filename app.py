@@ -16,12 +16,7 @@ import random
 
 
 app = Flask(__name__)
-"""
-#create chatbot
-englishBot = ChatBot("Chatterbot", storage_adapter="chatterbot.storage.SQLStorageAdapter")
-trainer = ChatterBotCorpusTrainer(englishBot)
-trainer.train("chatterbot.corpus.english") #train the chatter bot for english
-"""
+
 #code for the chatbot model output
 model = load_model('chatbot_model.h5')
 
@@ -75,19 +70,7 @@ def getResponse(ints, intents_json):
             break
     return result
 
-"""
-def chatbot_response():
-    model = load_model('chatbot_model.h5')
-    intents = json.loads(open('intents.json').read())
-    words = pickle.load(open('words.pkl','rb'))
-    classes = pickle.load(open('classes.pkl','rb'))
-    while(True):
-        inp=input("Koushik: ")
-        ints = predict_class(inp, model)
-        res = getResponse(ints, intents)
-    
-    return res
-"""
+
 
 #define app routes
 @app.route("/")
