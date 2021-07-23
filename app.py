@@ -74,11 +74,11 @@ def getResponse(ints, intents_json):
 
 
 #define app routes
-@app.route("/")
+@app.route("/",methods = ['GET'])
 def index():
     return render_template("index.html")
 
-@app.route("/get")
+@app.route("/get",methods = ['GET','POST'])
 #function for the bot response
 def get_bot_response():
     inp = request.args.get('msg')
