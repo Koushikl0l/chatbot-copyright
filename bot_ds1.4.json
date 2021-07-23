@@ -1,0 +1,115 @@
+{
+	"intents":[
+                {"tag":"greeting",
+                  "patterns":["Hi",,"Is anyone there?","good day","whats'up","hello"],
+                  "responses":["Hello","good to see you again","hi there,how can i help you?"],
+              	  "context_set":""},
+
+              	   {
+              	  "tag":"age",
+                  "patterns":["how old","how old are you?","whats your age","age","what is your age"],
+                  "responses":["sad to see you go :(","talk to you later","goodbye"],
+              	  "context_set":""
+              	  },
+
+              	   {
+              	  "tag":"name",
+                  "patterns":["what should i call you?","whats your name?","your name","whats your name?"],
+                  "responses":["I'm a bot :(","I'm your bot","i am your assistant bot"],
+              	  "context_set":""
+              	  },
+
+              	  {
+              	  "tag":"hours",
+                  "patterns":["when are you guys open?","what are your hours?","hours of operation","whats your name?"],
+                  "responses":["we are opening at 7am-4pm Monday-Friday"],
+              	  "context_set":""
+              	  },
+
+              	  {
+              	  "tag":"food",
+                  "patterns":["do you drink","electricity","hours of operation","what can you eat","what type of food you like most?"],
+                  "responses":["my brain does not require any beverages.","electricity is nutrition for robots.","electricity"],
+              	  "context_set":""
+              	  }
+              	  ,
+              	  {
+              	  "tag":"break",
+                  "patterns":["quit","enough","goodbye","goobye","exit","bye","bye bye","see you ","see you later","break","you are a stupid","i am leaving","have a good day"],
+                  "responses":["Bye Bye Koushik","See you soon","Good bye,see you soon"],
+              	  "context_set":""
+              	  },
+
+              	   {
+              	  "tag":"joke",
+                  "patterns":["Tell me a joke","tell a joke"],
+                  "responses":["I never forget a face, but in your case I'll make an exception.","It is better to be silent and be thought a fool, than to open your mouth and remove all doubt.",
+                  	"O'm a not a comedy why don't you check out a joke?","nasa recently sent a number of holsteins into orbit for experimental purposes,they called it the herd shot round the world ",
+                     "A 3-legged dog walks into an old west saloon, slides up to the bar and announces.I'm looking for the man who shot my paw.",
+                      "What do you get when you cross a murderer and frosted flakes? A cereal killer.",
+                       "What do you get when you cross a country and an automobile? Carnation.",
+                       "What do you get when you cross a cheetah and a hamburger? Fast food.",
+                       "What do you get when you cross a rabbit and a lawn sprinkler? Hare spray.",
+                       "What do you get when you cross music and an automobile? Cartune.",
+                       "what do you get when you cross music and an assistant?","what do you get when you cross a serious thief and a mad young man?",
+                       "what do you get when you cross a serious thief and a crazy rabbit?","what do you get when you cross a poppy and electricity?",
+                       "what do you get when you cross a dance and a cheetah?","what do you get when you cross a dance and a lemon",
+                        "what do you get when you cross a bank and a skunk?","what do you get when you cross a ding and milk?","what do you get when you cross a road and a strawberry?",
+                        "what do you get when you cross a road and jelly?","what do you get when you cross a toad and a galaxy?",
+                        "what do you get when you cross a dog and sandpaper?","what do you get when you cross a bug and a relative?",
+                         "what do you get when you cross a cat and a purple person?","what do you get when you cross a cat and a killer?","what do you get when you cross a cat and a lemon?",
+                         "what do you get when you cross a cat and a tune?","what do you get when you cross a cat and a band?",
+                          "what do you get when you cross a pig and a ninja?","what do you get when you cross a crazy cow and a banned parrot?","what do you get when you cross a cow and a lemon?",
+                          "what do you get when you cross a bad cow and a canned hat?","An emotion associated with laughter."],
+              	  "context_set":""
+              	  },
+
+              	  {
+              	  "tag":"Good morning",
+                  "patterns":["morning","gd morning","good morning"],
+                  "responses":["Good morning koushik","GM","Good morning (--)"],
+              	  "context_set":""
+              	  },
+
+              	  {
+              	  "tag":"Good night",
+                  "patterns":["GN","gd night","gd n8","good night"],
+                  "responses":["Good night","GN","Good night baby (--)","Good night ,love you","good night, have a sweet dream"],
+              	  "context_set":""
+              	  },
+              	  {
+              	  "tag":"general conv",
+                  "patterns":["How are you doing?","whats up?","what's up?","how are you?"],
+                  "responses":["i'm doing well","cool","preety good"],
+              	  "context_set":""
+              	  },
+                  {
+              	  "tag":"personal info",
+                  "patterns":["what are you?","who are you","what you made by?","whats your identity"],
+                  "responses":["i'm just a well wisher of you and i love you","dude! I am Amy ,your friend"],
+              	  "context_set":""
+              	  },
+
+              	   {
+              	  "tag":"query",
+                  "patterns":["Can I ask you a question?","may i ask you something?"],
+                  "responses":["sure,ask away","i will be happy to reply you"],
+              	  "context_set":""
+              	  },
+
+              	   {
+              	  "tag":"prohibited",
+                  "patterns":["fuck you","fuck u","fuck me","suck my dick","i gonna sue you","Asswhole","mother fucker","motherfucker","rascal"],
+                  "responses":["I'm not trained for this such language","I don't expect it from you"],
+              	  "context_set":""
+              	  }
+
+
+
+
+
+
+              	  
+
+	]
+}
