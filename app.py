@@ -21,7 +21,7 @@ app = Flask(__name__)
 #code for the chatbot model output
 model = load_model('chatbot_model.h5')
 
-intents = json.loads(open('intent.json').read())
+intents = json.loads(open('Intent.json').read())
 words = pickle.load(open('words.pkl','rb'))
 classes = pickle.load(open('classes.pkl','rb'))
 
